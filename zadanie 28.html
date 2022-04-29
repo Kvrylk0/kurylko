@@ -1,0 +1,21 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function samochod(marka_p,model_p,masa_p){
+ this.marka=marka_p;
+ this.model=model_p;
+ this.masa=masa_p;
+ }
+ samochod.prototype.wypisz=function(){
+ alert(this.marka +"  "+ this.model +"  "+ this.masa)
+ }
+ var samochod1=new samochod('BMW', 'E46', '1910');
+ var samochod2=new samochod('Audi', 'Dart', '1670');
+ samochod1.wypisz(); 
+ samochod2.wypisz();
+
+ </script>
+ </head>
+<body>
+
+</html>
