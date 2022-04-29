@@ -1,0 +1,23 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ var samochod = {
+marka: 'BMW',
+model: 'E36',
+masa: '1725',
+samochod_wyswietl_kurylko: function ()
+{
+ document.write("marka: " + this.marka + '<br>model: ' + this.model + "<br>masa(t)" + this.masa)
+ }
+}
+samochod.samochod_wyswietl_kurylko();
+samochod.marka='Audi';
+samochod.model='A4B5';
+samochod.masa='1540';
+samochod.pokaz=function(){alert("<br>marka: " + this.marka + '<br>model: ' + this.model + "<br>masa(t)" + this.masa)}
+samochod.pokaz();
+ </script>
+ </head>
+<body>
+
+</html>
